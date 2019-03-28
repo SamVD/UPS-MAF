@@ -2191,8 +2191,8 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="Accessory RJ-45 With Transformer Connector - UDE" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="WIZnet" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="RB1-125BAG1A" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-22.860790625" y="23.939" size="1.778" layer="25" font="vector" align="center"/>
 <attribute name="NAME" x="-22.86" y="11.43" size="5.08" layer="51" align="center"/>
+<attribute name="NAME" x="-22.860790625" y="23.939" size="1.778" layer="25" font="vector" align="center"/>
 <attribute name="PACKAGE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="2.18 USD" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
