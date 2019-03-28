@@ -422,58 +422,6 @@
 <rectangle x1="23.876" y1="1.016" x2="24.384" y2="1.524" layer="51"/>
 <rectangle x1="23.876" y1="-1.524" x2="24.384" y2="-1.016" layer="51"/>
 </package>
-<package name="OLED-I2C">
-<wire x1="-19.05" y1="5.08" x2="-16.51" y2="5.08" width="0.127" layer="51"/>
-<wire x1="-16.51" y1="5.08" x2="-16.51" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-16.51" y1="2.54" x2="-16.51" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="-16.51" y1="-5.08" x2="-19.05" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="-19.05" y1="-5.08" x2="-19.05" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-19.05" y1="2.54" x2="-19.05" y2="5.08" width="0.127" layer="51"/>
-<wire x1="-19.05" y1="6.35" x2="19.05" y2="6.35" width="0.254" layer="21"/>
-<wire x1="19.05" y1="6.35" x2="19.05" y2="-6.35" width="0.254" layer="21"/>
-<wire x1="19.05" y1="-6.35" x2="-19.05" y2="-6.35" width="0.254" layer="21"/>
-<wire x1="-19.05" y1="-6.35" x2="-19.05" y2="6.35" width="0.254" layer="21"/>
-<text x="0" y="0" size="1.524" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<wire x1="19.05" y1="6.35" x2="19.05" y2="-6.35" width="0.2032" layer="51"/>
-<wire x1="19.05" y1="-6.35" x2="-19.05" y2="-6.35" width="0.2032" layer="51"/>
-<wire x1="-19.05" y1="-6.35" x2="-19.05" y2="6.35" width="0.012" layer="57"/>
-<wire x1="-19.05" y1="6.35" x2="19.05" y2="6.35" width="0.012" layer="57"/>
-<text x="0" y="0" size="2.54" layer="51" ratio="10" align="center">&gt;NAME</text>
-<wire x1="-19.05" y1="2.54" x2="-16.51" y2="2.54" width="0.127" layer="51"/>
-<text x="-16.002" y="3.81" size="0.6096" layer="51" align="center-left">SDA</text>
-<text x="-16.002" y="1.27" size="0.6096" layer="51" align="center-left">SCL</text>
-<text x="-16.002" y="-1.27" size="0.6096" layer="51" align="center-left">VCC</text>
-<text x="-16.002" y="-3.81" size="0.6096" layer="51" align="center-left">GND</text>
-<wire x1="19.05" y1="-6.35" x2="-19.05" y2="-6.35" width="0.012" layer="57"/>
-<wire x1="19.05" y1="6.35" x2="19.05" y2="-6.35" width="0.012" layer="57"/>
-<wire x1="-19.05" y1="6.35" x2="19.05" y2="6.35" width="0.2032" layer="51"/>
-<wire x1="-19.05" y1="-6.35" x2="-19.05" y2="6.35" width="0.2032" layer="51"/>
-</package>
-<package name="ESQ-104-XX-X-S">
-<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-5.08" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="51"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="5.08" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="-1.27" x2="-5.08" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-5.842" y1="-1.714" x2="-5.842" y2="1.714" width="0.254" layer="21"/>
-<wire x1="-5.842" y1="1.714" x2="5.842" y2="1.714" width="0.254" layer="21"/>
-<wire x1="5.842" y1="1.714" x2="5.842" y2="-1.714" width="0.254" layer="21"/>
-<wire x1="5.842" y1="-1.714" x2="-5.842" y2="-1.714" width="0.254" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.524" shape="square"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.524"/>
-<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.524"/>
-<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.524"/>
-<text x="0" y="3.175" size="1.524" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-3.175" size="1.524" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.012" layer="57"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.012" layer="57"/>
-<wire x1="5.08" y1="-1.27" x2="-5.08" y2="-1.27" width="0.012" layer="57"/>
-<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.012" layer="57"/>
-<rectangle x1="-5.08" y1="-1.27" x2="5.08" y2="1.27" layer="39"/>
-<text x="0" y="0" size="1.524" layer="51" ratio="10" align="center">&gt;NAME</text>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.127" layer="51"/>
-</package>
 <package name="SOP65P640X120-8N">
 <description>&lt;b&gt;M24C32-RDW6TP&lt;/b&gt;&lt;br&gt;
 </description>
@@ -1019,42 +967,33 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="APU_ENGR480_UPS_EAGLE_Library" package="2X20" value="CONNECTOR_PI_40_PIN" x="32.5" y="26.5" smashed="yes">
-<attribute name="NAME" x="7.1" y="29.675" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="7.1" y="22.055" size="1.27" layer="27"/>
+<element name="J1" library="APU_ENGR480_UPS_EAGLE_Library" package="2X20" value="CONNECTOR_PI_40_PIN" x="3.5" y="39" smashed="yes">
+<attribute name="NAME" x="-21.9" y="42.175" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-21.9" y="34.555" size="1.27" layer="27"/>
 </element>
-<element name="U1" library="APU_ENGR480_UPS_EAGLE_Library" package="OLED-I2C" value="OLED_I2C" x="32.5" y="15" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.5" y="15.5" size="1.524" layer="25" font="vector" ratio="10" align="center"/>
-<attribute name="NAME" x="32.5" y="15" size="2.54" layer="51" ratio="10" rot="R270" align="center"/>
+<element name="U3" library="APU_ENGR480_UPS_EAGLE_Library" package="SOP65P640X120-8N" value="HAT EEPROM" x="29" y="-21" smashed="yes">
+<attribute name="DESCRIPTION" value="STMICROELECTRONICS - M24C32-RDW6TP - EEPROM, 32KBIT, I2C, 1MHZ, TSSOP-8" x="29" y="-21" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.2mm" x="29" y="-21" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="29" y="-21" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M24C32-RDW6TP" x="29" y="-21" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-M24C32-RDW6TP" x="29" y="-21" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-M24C32-RDW6TP" x="29" y="-21" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="29" y="-21" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="29" y="-21" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="29" y="-21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="29" y="-21" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J3" library="APU_ENGR480_UPS_EAGLE_Library" package="ESQ-104-XX-X-S" value="OLED" x="50.28" y="15" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.455" y="15" size="1.524" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
-<attribute name="NAME" x="50.28" y="15" size="1.524" layer="51" ratio="10" rot="R270" align="center"/>
-<attribute name="VALUE" x="47.105" y="15" size="1.524" layer="27" font="vector" ratio="10" rot="R270" align="center"/>
-</element>
-<element name="U3" library="APU_ENGR480_UPS_EAGLE_Library" package="SOP65P640X120-8N" value="HAT EEPROM" x="4" y="-2.5" smashed="yes">
-<attribute name="DESCRIPTION" value="STMICROELECTRONICS - M24C32-RDW6TP - EEPROM, 32KBIT, I2C, 1MHZ, TSSOP-8" x="4" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.2mm" x="4" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="4" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="M24C32-RDW6TP" x="4" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="511-M24C32-RDW6TP" x="4" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-M24C32-RDW6TP" x="4" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="4" y="-2.5" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="4" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="4" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="4" y="-2.5" size="1.27" layer="27" align="center"/>
-</element>
-<element name="U4" library="APU_ENGR480_UPS_EAGLE_Library" package="SOP65P640X120-16N" value="INA260AIPW" x="0" y="-7.5" smashed="yes">
-<attribute name="DESCRIPTION" value="36V, Bi-Dir, High Accuracy, Low-/High-Side, I2C Current/Pwr Monitor w/Integrated 2m Shunt Resistor" x="0" y="-7.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.2mm" x="0" y="-7.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="-7.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="INA260AIPW" x="0" y="-7.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-INA260AIPW" x="0" y="-7.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-INA260AIPW" x="0" y="-7.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="0" y="-7.5" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="0" y="-7.5" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="0" y="-7.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="0" y="-7.5" size="1.27" layer="27" align="center"/>
+<element name="U4" library="APU_ENGR480_UPS_EAGLE_Library" package="SOP65P640X120-16N" value="INA260AIPW" x="-10.5" y="-28" smashed="yes">
+<attribute name="DESCRIPTION" value="36V, Bi-Dir, High Accuracy, Low-/High-Side, I2C Current/Pwr Monitor w/Integrated 2m Shunt Resistor" x="-10.5" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.2mm" x="-10.5" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-10.5" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="INA260AIPW" x="-10.5" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-INA260AIPW" x="-10.5" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-INA260AIPW" x="-10.5" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.5" y="-28" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-10.5" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-10.5" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-10.5" y="-28" size="1.27" layer="27" align="center"/>
 </element>
 <element name="U7" library="APU_ENGR480_UPS_EAGLE_Library" package="OKI-78SR-HORIZONTAL" value="5V SMPS" x="-11.5" y="-2" smashed="yes">
 <attribute name="DESCRIPTION" value="Switching Regulator 7-36Vin 5Vo 1.5A Non-Isolated DC-DC Converter, 5V dc Output, 1.5A" x="-11.5" y="-2" size="1.778" layer="27" display="off"/>
@@ -1066,7 +1005,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="-11.5" y="-2" size="1.27" layer="25" align="center"/>
 <attribute name="RS_PART_NUMBER" value="1736931" x="-11.5" y="-2" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1736931" x="-11.5" y="-2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-11.5" y="-2" size="1.27" layer="27" align="center"/>
+<attribute name="VALUE" x="-12" y="0" size="1.27" layer="27" align="center"/>
 </element>
 <element name="J2" library="APU_ENGR480_UPS_EAGLE_Library" package="PJ-102AH" value="Barrel DC In" x="-32" y="-5" smashed="yes">
 <attribute name="DESCRIPTION" value="DC POWER JACK" x="-32" y="-5" size="1.778" layer="27" display="off"/>
@@ -1078,7 +1017,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="-27.965" y="1.411" size="1.27" layer="25" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="-32" y="-5" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="-32" y="-5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-27.965" y="1.411" size="1.27" layer="27" align="center"/>
+<attribute name="VALUE" x="-33.465" y="7.911" size="1.27" layer="27" align="center"/>
 </element>
 <element name="U2" library="APU_ENGR480_UPS_EAGLE_Library" package="SON100P300X300X80-7N" value="SI7006-A20-IM" x="-30" y="-12.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Silicon Labs Si7006-A20-IM Temperature &amp; Humidity Sensor 6-Pin DFN, -40  +125 C" x="-30" y="-12.5" size="1.778" layer="27" display="off"/>
@@ -1144,8 +1083,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value="Accessory RJ-45 With Transformer Connector - UDE" x="-83.5" y="-65.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="WIZnet" x="-83.5" y="-65.5" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="RB1-125BAG1A" x="-83.5" y="-65.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-83.5" y="-65.5" size="5.08" layer="51" align="center"/>
 <attribute name="NAME" x="-83.500790625" y="-52.991" size="1.778" layer="25" font="vector" align="center"/>
+<attribute name="NAME" x="-83.5" y="-65.5" size="5.08" layer="51" align="center"/>
 <attribute name="PACKAGE" value="None" x="-83.5" y="-65.5" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="2.18 USD" x="-83.5" y="-65.5" size="1.778" layer="27" display="off"/>
 </element>
@@ -1166,69 +1105,44 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="CS">
 <contactref element="J1" pad="24"/>
 </signal>
-<signal name="MOSI">
-<contactref element="J1" pad="19"/>
-<contactref element="U6" pad="7"/>
-<wire x1="31.23" y1="25.23" x2="-68.55" y2="-34.675" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND">
-<contactref element="U2" pad="2"/>
-<contactref element="J1" pad="39"/>
-<contactref element="J3" pad="1"/>
-<contactref element="J6" pad="1"/>
-<contactref element="U4" pad="4"/>
-<contactref element="U4" pad="6"/>
-<contactref element="U4" pad="11"/>
-<contactref element="J5" pad="1"/>
-<contactref element="J7" pad="S2"/>
+<signal name="S$1">
 <contactref element="J7" pad="S1"/>
-<contactref element="U6" pad="2"/>
-<contactref element="U6" pad="22"/>
-<contactref element="U6" pad="21"/>
-<contactref element="U6" pad="18"/>
-<contactref element="U7" pad="2"/>
+<contactref element="J7" pad="S2"/>
 <wire x1="-75.625790625" y1="-62.451040625" x2="-91.375790625" y2="-62.451040625" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="1"/>
 <wire x1="-67.5" y1="-46" x2="-75.625790625" y2="-62.451040625" width="0" layer="19" extent="1-1"/>
+<contactref element="U6" pad="18"/>
 <wire x1="-61.45" y1="-37.275" x2="-67.5" y2="-46" width="0" layer="19" extent="1-1"/>
+<contactref element="U6" pad="2"/>
+<contactref element="U6" pad="21"/>
 <wire x1="-61.45" y1="-35.325" x2="-61.45" y2="-37.275" width="0" layer="19" extent="1-1"/>
+<contactref element="U6" pad="22"/>
 <wire x1="-61.45" y1="-34.675" x2="-61.45" y2="-35.325" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.55" y1="-31.425" x2="-61.45" y2="-34.675" width="0" layer="19" extent="1-1"/>
+<contactref element="J5" pad="1"/>
 <wire x1="-46.96" y1="-16.905" x2="-61.45" y2="-34.675" width="0" layer="19" extent="1-1"/>
+<contactref element="U2" pad="2"/>
 <wire x1="-31.45" y1="-12.5" x2="-46.96" y2="-16.905" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.5" y1="-8.95" x2="-31.45" y2="-12.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.938" y1="-8.475" x2="-11.5" y2="-8.95" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.938" y1="-7.175" x2="-2.938" y2="-8.475" width="0" layer="19" extent="1-1"/>
-<wire x1="2.938" y1="-8.475" x2="-2.938" y2="-8.475" width="0" layer="19" extent="1-1"/>
-<wire x1="50.28" y1="18.81" x2="2.938" y2="-8.475" width="0" layer="19" extent="1-1"/>
-<wire x1="56.63" y1="25.23" x2="50.28" y2="18.81" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SCLK">
-<contactref element="J1" pad="23"/>
-<contactref element="U6" pad="8"/>
-<wire x1="36.31" y1="25.23" x2="-68.55" y2="-35.325" width="0" layer="19" extent="1-1"/>
+<signal name="S$2">
+<contactref element="U4" pad="4"/>
+<contactref element="U4" pad="6"/>
+<wire x1="-13.438" y1="-28.975" x2="-13.438" y2="-27.675" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="11"/>
+<wire x1="-7.562" y1="-28.975" x2="-13.438" y2="-28.975" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MISO">
-<contactref element="J1" pad="21"/>
-<contactref element="U6" pad="6"/>
-<wire x1="33.77" y1="25.23" x2="-68.55" y2="-34.025" width="0" layer="19" extent="1-1"/>
+<signal name="GND">
+<contactref element="J1" pad="39"/>
 </signal>
-<signal name="SCK">
-<contactref element="J3" pad="3"/>
-<contactref element="J1" pad="5"/>
-<contactref element="U4" pad="9"/>
+<signal name="S$5">
 <contactref element="U2" pad="6"/>
-<wire x1="13.45" y1="25.23" x2="50.28" y2="13.73" width="0" layer="19" extent="1-1"/>
-<wire x1="2.938" y1="-9.775" x2="13.45" y2="25.23" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.55" y1="-11.5" x2="2.938" y2="-9.775" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="9"/>
+<wire x1="-28.55" y1="-11.5" x2="-7.562" y2="-30.275" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SDA">
-<contactref element="J3" pad="4"/>
-<contactref element="J1" pad="3"/>
-<contactref element="U4" pad="8"/>
+<signal name="S$3">
 <contactref element="U2" pad="1"/>
-<wire x1="10.91" y1="25.23" x2="50.28" y2="11.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.938" y1="-9.775" x2="10.91" y2="25.23" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.45" y1="-11.5" x2="-2.938" y2="-9.775" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="8"/>
+<wire x1="-31.45" y1="-11.5" x2="-13.438" y2="-30.275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PAD">
 <contactref element="U2" pad="7"/>
@@ -1243,8 +1157,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U6" pad="15"/>
 </signal>
 <signal name="3.3V">
-<contactref element="J1" pad="1"/>
-<contactref element="J3" pad="2"/>
 <contactref element="J6" pad="3"/>
 <contactref element="U4" pad="5"/>
 <contactref element="U4" pad="10"/>
@@ -1258,41 +1170,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-61.45" y1="-32.725" x2="-61.45" y2="-35.975" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.45" y1="-30.775" x2="-61.45" y2="-32.725" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.04" y1="-16.905" x2="-61.45" y2="-30.775" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.938" y1="-7.825" x2="-52.04" y2="-16.905" width="0" layer="19" extent="1-1"/>
-<wire x1="2.938" y1="-9.125" x2="-2.938" y2="-7.825" width="0" layer="19" extent="1-1"/>
-<wire x1="8.37" y1="25.23" x2="2.938" y2="-9.125" width="0" layer="19" extent="1-1"/>
-<wire x1="50.28" y1="16.27" x2="8.37" y2="25.23" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="J1" pad="8"/>
-<contactref element="J6" pad="4"/>
-<wire x1="15.99" y1="27.77" x2="-59.88" y2="-46" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="J6" pad="5"/>
-<contactref element="J1" pad="10"/>
-<wire x1="18.53" y1="27.77" x2="-57.34" y2="-46" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.438" y1="-28.325" x2="-52.04" y2="-16.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.562" y1="-29.625" x2="-13.438" y2="-28.325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATTERY+">
 <contactref element="U4" pad="16"/>
 <contactref element="U4" pad="15"/>
 <contactref element="U4" pad="14"/>
 <contactref element="U4" pad="12"/>
-<wire x1="2.938" y1="-6.525" x2="2.938" y2="-7.825" width="0" layer="19" extent="1-1"/>
-<wire x1="2.938" y1="-5.875" x2="2.938" y2="-6.525" width="0" layer="19" extent="1-1"/>
-<wire x1="2.938" y1="-5.225" x2="2.938" y2="-5.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.562" y1="-27.025" x2="-7.562" y2="-28.325" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.562" y1="-26.375" x2="-7.562" y2="-27.025" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.562" y1="-25.725" x2="-7.562" y2="-26.375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATTERY-">
 <contactref element="U4" pad="1"/>
 <contactref element="U4" pad="3"/>
 <contactref element="U4" pad="2"/>
-<wire x1="-2.938" y1="-5.875" x2="-2.938" y2="-5.225" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.938" y1="-6.525" x2="-2.938" y2="-5.875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="J5" pad="2"/>
-<contactref element="J1" pad="7"/>
-<wire x1="15.99" y1="25.23" x2="-49.5" y2="-16.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.438" y1="-26.375" x2="-13.438" y2="-25.725" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.438" y1="-27.025" x2="-13.438" y2="-26.375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U6" pad="13"/>
