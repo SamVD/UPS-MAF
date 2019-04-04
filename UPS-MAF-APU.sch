@@ -8920,7 +8920,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="30.48" y="10.16" size="1.778" layer="91" rot="R180" align="center-left">N/C</text>
 <text x="27.94" y="129.54" size="1.778" layer="91" rot="R180" align="top-right">N/C</text>
 <text x="33.02" y="157.48" size="1.778" layer="91" rot="R180" align="top-left">N/C</text>
-<text x="27.94" y="132.08" size="1.778" layer="91" rot="R180" align="top-right">N/C</text>
+<text x="27.94" y="134.62" size="1.778" layer="91" rot="R180" align="top-right">N/C</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="152.4" y="121.92" smashed="yes">
@@ -9594,17 +9594,16 @@ Source: AVX .. aphvc.pdf</description>
 <label x="20.32" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="CLKOUT"/>
-<wire x1="33.02" y1="134.62" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="INT" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GPIO_25@22"/>
 <wire x1="175.26" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
 <label x="180.34" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="!INT"/>
+<wire x1="33.02" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
+<label x="20.32" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -9731,19 +9730,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="185.42" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="58.42" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="55.88" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
-<junction x="93.98" y="55.88"/>
-</segment>
-</net>
 <net name="OIN" class="0">
 <segment>
 <pinref part="Y1" gate="G$1" pin="IN/OUT"/>
@@ -9765,17 +9751,14 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="182.88" x2="210.82" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="182.88" x2="195.58" y2="182.88" width="0.1524" layer="91"/>
+<junction x="200.66" y="182.88"/>
+<label x="195.58" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="OSC1"/>
 <wire x1="66.04" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
 <label x="71.12" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Y1" gate="G$1" pin="OUT/IN"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="195.58" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
-<label x="203.2" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX_OT" class="0">
@@ -9823,9 +9806,47 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="60.96" y1="17.78" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="Y1" gate="G$1" pin="OUT/IN"/>
+<wire x1="200.66" y1="193.04" x2="200.66" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="58.42" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="48.26" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<junction x="91.44" y="55.88"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,33.02,160.02,U4,GND_1,GND,,,"/>
+<approved hash="104,1,63.5,162.56,U4,VBUS,BATTERY+,,,"/>
+<approved hash="104,1,63.5,160.02,U4,GND_2,GND,,,"/>
+<approved hash="104,1,63.5,157.48,U4,VS,3.3V,,,"/>
+<approved hash="104,1,124.46,190.5,U2,VDD,3.3V,,,"/>
+<approved hash="104,1,33.02,137.16,U6,VSS,GND,,,"/>
+<approved hash="104,1,33.02,114.3,U6,VSSRX,GND,,,"/>
+<approved hash="104,1,66.04,139.7,U6,VDD,3.3V,,,"/>
+<approved hash="104,1,66.04,132.08,U6,VDDOSC,3.3V,,,"/>
+<approved hash="104,1,66.04,124.46,U6,VSSOSC,GND,,,"/>
+<approved hash="104,1,66.04,121.92,U6,VSSPLL,GND,,,"/>
+<approved hash="104,1,66.04,119.38,U6,VDDPLL,3.3V,,,"/>
+<approved hash="104,1,66.04,116.84,U6,VDDRX,3.3V,,,"/>
+<approved hash="104,1,66.04,114.3,U6,VSSTX,GND,,,"/>
+<approved hash="104,1,66.04,106.68,U6,VDDTX,3.3V,,,"/>
+<approved hash="113,1,200.508,133.198,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
