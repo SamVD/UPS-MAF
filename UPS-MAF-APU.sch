@@ -9920,7 +9920,6 @@ Source: AVX .. aphvc.pdf</description>
 <approved hash="104,1,66.04,116.84,U6,VDDRX,3.3V,,,"/>
 <approved hash="104,1,66.04,114.3,U6,VSSTX,GND,,,"/>
 <approved hash="104,1,66.04,106.68,U6,VDDTX,3.3V,,,"/>
-<approved hash="113,1,200.508,133.198,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
