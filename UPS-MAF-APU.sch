@@ -9456,7 +9456,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="27.94" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BATTERY+" class="0">
+<net name="BATTERY+" class="1">
 <segment>
 <pinref part="U4" gate="G$1" pin="IN-_3"/>
 <wire x1="63.5" y1="172.72" x2="68.58" y2="172.72" width="0.1524" layer="91"/>
@@ -9493,7 +9493,7 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="27.94" y="170.18"/>
 <label x="17.78" y="170.18" size="1.778" layer="95" rot="R180"/>
 <wire x1="27.94" y1="170.18" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="170.18" x2="17.78" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="170.18" x2="17.78" y2="198.12" width="0.0762" layer="91"/>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="198.12" x2="43.18" y2="198.12" width="0.1524" layer="91"/>
 </segment>
