@@ -8844,6 +8844,8 @@ Source: AVX .. aphvc.pdf</description>
 <class number="3" name="diff pair 2" width="0.2032" drill="0">
 <clearance class="3" value="0.254"/>
 </class>
+<class number="4" name="supply" width="0.3302" drill="0">
+</class>
 </classes>
 <parts>
 <part name="J1" library="APU_ENGR480_UPS_EAGLE_Library" deviceset="CONNECTOR_PI_40_PIN" device=""/>
@@ -8916,7 +8918,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="CRCW060350R0FKEA" value="50"/>
 </part>
 <part name="SYMBOL14" library="APU_ENGR480_UPS_EAGLE_Library" deviceset="3.3V" device=""/>
-<part name="R11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="0"/>
 <part name="R10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="4.7K">
 <attribute name="CRCW060350R0FKEA" value="50"/>
 </part>
@@ -9177,10 +9178,6 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="SYMBOL14" gate="G$1" x="111.76" y="182.88" smashed="yes">
 <attribute name="VALUE" x="109.855" y="188.595" size="1.778" layer="96"/>
-</instance>
-<instance part="R11" gate="G$1" x="193.04" y="182.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="191.77" y="186.4614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="189.23" y="181.102" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R10" gate="G$1" x="170.18" y="190.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="171.6786" y="194.31" size="1.778" layer="95" rot="R270"/>
@@ -9594,7 +9591,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="20.32" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="4">
 <segment>
 <pinref part="U6" gate="G$1" pin="VDDOSC"/>
 <wire x1="66.04" y1="132.08" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
@@ -9737,9 +9734,13 @@ Source: AVX .. aphvc.pdf</description>
 <label x="71.12" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="182.88" x2="182.88" y2="182.88" width="0.1524" layer="91"/>
-<label x="180.34" y="182.88" size="1.778" layer="95"/>
+<label x="190.5" y="182.88" size="1.778" layer="95"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="182.88" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="OUT/IN"/>
+<wire x1="200.66" y1="195.58" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
+<junction x="200.66" y="182.88"/>
+<wire x1="193.04" y1="182.88" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX_OT" class="0">
@@ -9820,17 +9821,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="71.12" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="66.04" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="182.88" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="Y1" gate="G$1" pin="OUT/IN"/>
-<wire x1="200.66" y1="182.88" x2="198.12" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="195.58" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
-<junction x="200.66" y="182.88"/>
 </segment>
 </net>
 <net name="TPIN_N" class="2">
