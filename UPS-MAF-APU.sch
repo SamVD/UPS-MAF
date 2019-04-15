@@ -9899,6 +9899,7 @@ Source: AVX .. aphvc.pdf</description>
 <approved hash="104,1,63.5,162.56,U4,VBUS,BATTERY+,,,"/>
 <approved hash="104,1,63.5,160.02,U4,GND_2,GND,,,"/>
 <approved hash="104,1,63.5,157.48,U4,VS,3.3V,,,"/>
+<approved hash="204,1,139.7,208.28,U2,PAD,,,,"/>
 <approved hash="104,1,124.46,190.5,U2,VDD,3.3V,,,"/>
 <approved hash="104,1,33.02,137.16,U6,VSS,GND,,,"/>
 <approved hash="104,1,33.02,114.3,U6,VSSRX,GND,,,"/>
@@ -9910,6 +9911,11 @@ Source: AVX .. aphvc.pdf</description>
 <approved hash="104,1,66.04,116.84,U6,VDDRX,3.3V,,,"/>
 <approved hash="104,1,66.04,114.3,U6,VSSTX,GND,,,"/>
 <approved hash="104,1,66.04,106.68,U6,VDDTX,3.3V,,,"/>
+<approved hash="208,1,180.34,55.88,5V,sup,,,,"/>
+<approved hash="208,1,119.38,12.7,5V,out,,,,"/>
+<approved hash="208,1,121.92,12.7,5V,sup,,,,"/>
+<approved hash="208,1,182.88,170.18,5V,sup,,,,"/>
+<approved hash="113,1,200.508,133.198,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
